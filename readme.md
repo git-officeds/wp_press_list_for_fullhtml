@@ -8,13 +8,19 @@
 
 ```text
 wp_press_list_for_fullhtml/
-├── prompt.md                                  # 仕様書
-├── readme.md                                  # 本実装マニュアル
-└── wp-press-list-for-fullhtml-top/            # パッケージ本体
-    ├── wp-press-list.css                      # スタイルシート
-    ├── wp-press-list.js                       # 非同期通信・HTML生成スクリプト
-    ├── index.html                             # 実装サンプル（デモ）
-    └── readme.md                              # パッケージ内マニュアル
+├── prompt.md                                  # トップページ用仕様書
+├── prompt2.md                                 # 投稿一覧ページ用仕様書
+├── readme.md                                  # 実装マニュアル
+├── wp-press-list-for-fullhtml-top/            # トップページ向けパッケージ（最新3件表示）
+│   ├── wp-press-list.css
+│   ├── wp-press-list.js
+│   ├── index.html
+│   └── readme.md
+└── wp-press-list-for-fullhtml-press/          # 投稿一覧ページ向けパッケージ（10件＋ページネーション）
+    ├── wp-press-list.css
+    ├── wp-press-list.js
+    ├── index.html
+    └── readme.md
 ```
 
 ---
